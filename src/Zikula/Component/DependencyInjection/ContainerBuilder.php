@@ -15,7 +15,6 @@
 
 namespace Zikula\Component\DependencyInjection;
 
-use Symfony\Component\DependencyInjection\Compiler\Compiler;
 use Symfony\Component\DependencyInjection\ContainerBuilder as BaseContainerBuilder;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 
@@ -89,7 +88,7 @@ class ContainerBuilder extends BaseContainerBuilder implements \ArrayAccess
     }
 
     /**
-     * Unset argument by id, implmentation for \ArrayAccess.
+     * Unset argument by id, implementation for \ArrayAccess.
      *
      * @param string $id Id.
      *
@@ -98,7 +97,13 @@ class ContainerBuilder extends BaseContainerBuilder implements \ArrayAccess
     public function offsetUnset($id)
     {
         if ($this->hasParameter($id)) {
-            unset($this->arguments[$id]);
+            if (method_exists($this->parameterBag, 'remove')) {
+                $this->parameterBag->remove($id);
+            } else {
+                throw new \BadMethodCallException(
+                    sprintf('No remove method in %s, unable to unset %s', get_class($this->parameterBag), $id)
+                );
+            }
         }
     }
 
