@@ -19,12 +19,10 @@ class ThemeListener implements EventSubscriberInterface
      * @var EngineInterface
      */
     private $templating;
-    private $activeTheme;
 
     public function __construct(EngineInterface $templating)
     {
         $this->templating = $templating;
-        $this->activeTheme = 'Andreas08Theme';
     }
 
     public function onKernelResponse(FilterResponseEvent $event)
@@ -41,7 +39,8 @@ class ThemeListener implements EventSubscriberInterface
             }
 
             $request = $event->getRequest();
-            if ($request->isXmlHttpRequest()) {
+            $theme = $request->attributes->get('_theme', '');
+            if ($request->isXmlHttpRequest() || empty($theme)) {
                 return;
             }
 
@@ -58,7 +57,7 @@ class ThemeListener implements EventSubscriberInterface
                 $s = \ServiceUtil::getManager();
                 $m = $s->getParameter('zikula_view.metatags');
 
-                $content = $this->templating->render($this->activeTheme.'::master.html.twig',
+                $content = $this->templating->render($theme.'::master.html.twig',
                                                      array(
                                                          'maincontent' => $response->getContent(),
                                                          'themevar' => $themeVar,
