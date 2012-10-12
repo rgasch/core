@@ -15,13 +15,10 @@
 
 namespace Zikula\Bundle\CoreBundle\EventListener;
 
-use Symfony\Component\HttpKernel\KernelEvents;
 use Zikula\Core\Event\GenericEvent;
 use Zikula\Core\CoreEvents;
 use Zikula\Core\Core;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Definition;
-use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use System;
 use SessionUtil;
