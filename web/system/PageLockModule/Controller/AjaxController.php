@@ -17,7 +17,7 @@ namespace PageLockModule\Controller;
 use UserUtil, ModUtil, LogUtil;
 use Zikula\Framework\Response\Ajax\AjaxResponse;
 
-class AjaxController extends \Zikula\Framework\Controller\AbstractAjax
+class AjaxController extends \Zikula\Framework\Controller\AbstractAjaxController
 {
     /**
      * refresh a page lock

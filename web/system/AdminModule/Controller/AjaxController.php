@@ -19,7 +19,7 @@ use Zikula\Framework\Exception\FatalException;
 use Zikula\Framework\Response\Ajax\AjaxResponse;
 use Zikula\Framework\Response\Ajax\BadDataResponse;
 
-class AjaxController extends \Zikula\Framework\Controller\AbstractAjax
+class AjaxController extends \Zikula\Framework\Controller\AbstractAjaxController
 {
     /**
      * Change the category a module belongs to by ajax.

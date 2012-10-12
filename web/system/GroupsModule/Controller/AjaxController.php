@@ -22,7 +22,7 @@ use GroupsModule\Helper\CommonHelper;
 /**
  * Groups_Controller_Ajax class.
  */
-class AjaxController extends \Zikula\Framework\Controller\AbstractAjax
+class AjaxController extends \Zikula\Framework\Controller\AbstractAjaxController
 {
     /**
      * Updates a group in the database

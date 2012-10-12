@@ -14,14 +14,14 @@
 
 namespace CategoriesModule\Controller;
 
-use SecurityUtil, ModUtil, LogUtil, CategoryUtil, UserUtil, ZLanguage, FormUtil, StringUtil;
+use SecurityUtil, ModUtil, LogUtil, CategoryUtil, UserUtil, ZLanguage, FormUtil;
 use Zikula\Framework\Response\Ajax\AjaxResponse;
 use Zikula\Framework\Response\Ajax\BadDataResponse;
 
 /**
  * Categories_Controller_Ajax.
  */
-class AjaxController extends \Zikula\Framework\Controller\AbstractAjax
+class AjaxController extends \Zikula\Framework\Controller\AbstractAjaxController
 {
     /**
      * Resequence categories
