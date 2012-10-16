@@ -20,6 +20,7 @@
         "sensio/generator-bundle": "2.2.*",
         "jms/security-extra-bundle": "dev-master",
         "jms/di-extra-bundle": "dev-master",
+        "stof/doctrine-extensions-bundle": "dev-master",
         "gedmo/doctrine-extensions": "dev-master",
         "imagine/Imagine": "dev-master",
         "pagerfanta/pagerfanta": "dev-master",
