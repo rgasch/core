@@ -54,14 +54,11 @@ class ThemeListener implements EventSubscriberInterface
                     'basecss' => 'grid',
                     'layout' => '2col',
                 ); // todo
-                $s = \ServiceUtil::getManager();
-                $m = $s->getParameter('zikula_view.metatags');
 
                 $content = $this->templating->render($theme.'::master.html.twig',
                                                      array(
                                                          'maincontent' => $response->getContent(),
                                                          'themevar' => $themeVar,
-                                                         'metatags' => $m,
                                                          'modvars' => \ModUtil::getModvars(),
                                                      ));
                 $content = \JCSSUtil::render($content);

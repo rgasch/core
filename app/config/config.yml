@@ -18,6 +18,12 @@ framework:
 twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
+    globals:
+        css: '@theme.assets_css'
+        js: '@theme.assets_js'
+        pagevar: '@theme.pagevars'
+        themevar: '@theme.pagevars'
+        meta: '@theme.metatags'
 
 # Assetic Configuration
 assetic:
@@ -155,7 +161,3 @@ swiftmailer:
 #    locales: [en, de]
 #    strategy: prefix
 
-twig:
-    # ...
-    globals:
-        title: "Default title"
