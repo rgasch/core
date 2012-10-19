@@ -287,7 +287,7 @@ class JCSSUtil
                         'require' => array('noconflict'),
                 ),
                 'jquery-ui' => array(
-                        'path' => 'javascript/jquery-ui/jquery-ui-1.8.23.custom.min.js',
+                        'path' => 'javascript/jquery-ui/jquery-ui-1.9.0.custom.min.js',
                         'require' => array('jquery'),
                 ),
                 'noconflict' => array(
@@ -418,7 +418,7 @@ class JCSSUtil
             );
             $jQueryUiUncompressed = array(
                     'jquery-ui' => array(
-                            'path' => 'javascript/jquery-ui/jquery-ui-1.8.23.custom.js', // the 'custom' designation is meaningless
+                            'path' => 'javascript/jquery-ui/jquery-ui-1.9.0.custom.js', // the 'custom' designation is meaningless
                             'require' => array('jquery'),
                     ),
             );
@@ -511,7 +511,7 @@ class JCSSUtil
      * @param string $ext       Extention.
      * @param string $cache_dir Cache directory.
      *
-     * @return string Combined pagevars file.
+     * @return array Array of file with combined pagevars file and remote files
      */
     private static function save($files, $ext, $cache_dir)
     {
@@ -538,6 +538,7 @@ class JCSSUtil
                 break;
         }
 
+        $outputFiles = array();
         $contents = array();
         $dest = fopen($cachedFile, 'w');
 
@@ -545,7 +546,12 @@ class JCSSUtil
         $contents[] = "/* --- Combined files:\n" . implode("\n", $files) . "\n*/\n\n";
         foreach ($files as $file) {
             if (!empty($file)) {
-                self::readfile($contents, $file, $ext);
+                // skip remote files from combining
+                if (is_file($file)) {
+                    self::readfile($contents, $file, $ext);
+                } else {
+                    $outputFiles[] = $file;
+                }
             }
         }
 
@@ -570,7 +576,10 @@ class JCSSUtil
         fwrite($dest, serialize($data));
         fclose($dest);
 
-        return "jcss.php?f=$cachedFileUri";
+        $combined = "jcss.php?f=$cachedFileUri";
+        array_unshift($outputFiles, $combined);
+
+        return $outputFiles;
     }
 
     /**
