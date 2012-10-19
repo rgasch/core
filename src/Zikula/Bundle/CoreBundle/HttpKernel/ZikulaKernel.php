@@ -17,7 +17,7 @@ abstract class ZikulaKernel extends Kernel
      */
     protected function getContainerBaseClass()
     {
-        return '\Zikula\Component\DependencyInjection\ContainerBuilder';
+        return 'Zikula\Component\DependencyInjection\ContainerBuilder';
     }
 
     /**
