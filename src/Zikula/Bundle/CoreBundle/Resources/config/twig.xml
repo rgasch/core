@@ -7,6 +7,11 @@
     <parameters>
         <parameter key="twig.extension.zikula_gettext.class">Zikula\Bundle\CoreBundle\Twig\Extension\GettextExtension</parameter>
         <parameter key="twig.extension.zikula_core.class">Zikula\Bundle\CoreBundle\Twig\Extension\CoreExtension</parameter>
+        <parameter key="theme.assets.js.class">Zikula\Core\Theme\AssetBag</parameter>
+        <parameter key="theme.assets.css.class">Zikula\Core\Theme\AssetBag</parameter>
+        <parameter key="theme.pagevars.class">Zikula\Core\Theme\ParameterBag</parameter>
+        <parameter key="theme.themevars.class">Zikula\Core\Theme\ParameterBag</parameter>
+        <parameter key="theme.metatags.class">Zikula\Core\Theme\ParameterBag</parameter>
     </parameters>
 
     <services>
@@ -18,6 +23,21 @@
         <service id="twig.extension.zikula_core" class="%twig.extension.zikula_core.class%" public="false">
             <tag name="twig.extension" />
             <argument type="service" id="service_container" />
+        </service>
+
+        <service id="theme.assets_js" class="%theme.assets.js.class%">
+        </service>
+
+        <service id="theme.assets_css" class="%theme.assets.css.class%">
+        </service>
+
+        <service id="theme.pagevars" class="%theme.pagevars.class%">
+        </service>
+
+        <service id="theme.themevars" class="%theme.themevars.class%">
+        </service>
+
+        <service id="theme.metatags" class="%theme.metatags.class%">
         </service>
     </services>
 </container>
