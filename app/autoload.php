@@ -37,6 +37,7 @@ AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 require_once __DIR__.'/../vendor/hard/Smarty/Smarty.class.php';
 require_once __DIR__.'/../src/legacy/i18n/ZGettextFunctions.php';
 
+$loader->add('CustomBundle', __DIR__.'/custom');
 $loader->add('Zikula_', __DIR__.'/../src/legacy');
 $loader->add('Zikula', __DIR__.'/../src');
 $loader->add('Zend_', __DIR__. '/../vendor/hard');

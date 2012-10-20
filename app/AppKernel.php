@@ -41,6 +41,7 @@ class AppKernel extends Kernel
             new ThemeModule\ZikulaThemeModule(),
             new UsersModule\ZikulaUsersModule(),
             new Andreas08Theme\Andreas08Theme(),
+            new CustomBundle\CustomBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
