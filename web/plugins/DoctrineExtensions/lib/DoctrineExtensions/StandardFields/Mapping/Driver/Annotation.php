@@ -25,9 +25,7 @@ class Annotation implements AnnotationDriverInterface
      *
      * @var array
      */
-    private $validTypes = array(
-        'integer'
-    );
+    private $validTypes = array('integer');
 
     /**
      * Annotation reader instance
@@ -52,7 +50,8 @@ class Annotation implements AnnotationDriverInterface
     /**
      * {@inheritDoc}
      */
-    public function readExtendedMetadata($meta, array &$config) {
+    public function readExtendedMetadata($meta, array &$config)
+    {
         $class = $meta->getReflectionClass();
         // property annotations
         foreach ($class->getProperties() as $property) {
@@ -70,8 +69,8 @@ class Annotation implements AnnotationDriverInterface
                 if (!$this->isValidField($meta, $field)) {
                     throw new InvalidMappingException("Field - [{$field}] type is not valid and must be 'integer' in class - {$meta->name}");
                 }
-                if($timestampable->type != 'userid') {
-                     throw new InvalidMappingException("Field - [{$field}] StandardFields annotation attribute 'type' is not 'userid' in class - {$meta->name}");
+                if ($timestampable->type != 'userid') {
+                    throw new InvalidMappingException("Field - [{$field}] StandardFields annotation attribute 'type' is not 'userid' in class - {$meta->name}");
                 }
                 if (!in_array($timestampable->on, array('update', 'create', 'change'))) {
                     throw new InvalidMappingException("Field - [{$field}] trigger 'on' is not one of [update, create, change] in class - {$meta->name}");
@@ -96,12 +95,14 @@ class Annotation implements AnnotationDriverInterface
      * Checks if $field type is valid
      *
      * @param ClassMetadata $meta
-     * @param string $field
+     * @param string        $field
+     *
      * @return boolean
      */
     protected function isValidField(ClassMetadata $meta, $field)
     {
         $mapping = $meta->getFieldMapping($field);
+
         return $mapping && in_array($mapping['type'], $this->validTypes);
     }
 
@@ -109,6 +110,7 @@ class Annotation implements AnnotationDriverInterface
      * Passes in the mapping read by original driver
      *
      * @param $driver
+     *
      * @return void
      */
     public function setOriginalDriver($driver)

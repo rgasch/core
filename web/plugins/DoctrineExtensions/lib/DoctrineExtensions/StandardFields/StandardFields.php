@@ -12,17 +12,17 @@ interface StandardFields
     // timestampable expects annotations on properties
     
     /**
-     * @ZK\StandardFields(on="create")
+     * @Zikula\StandardFields(on="create")
      * user id which should be updated on insert only
      */
     
     /**
-     * @ZK\StandardFields(on="update")
+     * @Zikula\StandardFields(on="update")
      * user id which should be updated on update and insert
      */
     
     /**
-     * @ZK\StandardFields(on="change", field="field", value="value")
+     * @Zikula\StandardFields(on="change", field="field", value="value")
      * user id which should be updated on changed "property" 
      * value and become equal to given "value"
      */
@@ -30,7 +30,7 @@ interface StandardFields
     /**
      * example
      * 
-     * @ZK\StandardFields(on="create")
+     * @Zikula\StandardFields(on="create")
      * @Column(type="integer")
      * $createdUserId
      */

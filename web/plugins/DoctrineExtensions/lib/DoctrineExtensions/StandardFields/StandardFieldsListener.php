@@ -30,6 +30,7 @@ class StandardFieldsListener extends MappedEventSubscriber
      * Mapps additional metadata for the Entity
      *
      * @param EventArgs $eventArgs
+     *
      * @return void
      */
     public function loadClassMetadata(EventArgs $eventArgs)
@@ -43,6 +44,7 @@ class StandardFieldsListener extends MappedEventSubscriber
      * to update modification date
      *
      * @param EventArgs $args
+     *
      * @return void
      */
     public function onFlush(EventArgs $args)
@@ -116,6 +118,7 @@ class StandardFieldsListener extends MappedEventSubscriber
      * to update creation and modification dates
      *
      * @param EventArgs $args
+     *
      * @return void
      */
     public function prePersist(EventArgs $args)
