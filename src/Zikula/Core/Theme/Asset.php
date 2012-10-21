@@ -104,7 +104,7 @@ class Asset
         // theme
         // bundles/themename/$assetPath
         $themeName = $this->package->getThemeName();
-        if ($parameters['bundle_name'] !== $themeName) {
+        if (false === empty($themeName) && $parameters['bundle_name'] !== $themeName) {
             $paths[] = $this->getAssetPath($this->package->getThemeName(), $parameters['asset_path']);
         }
 
