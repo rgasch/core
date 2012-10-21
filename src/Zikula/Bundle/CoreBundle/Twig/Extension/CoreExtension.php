@@ -6,6 +6,13 @@ use Zikula\Bundle\CoreBundle\Twig;
 
 class CoreExtension extends \Twig_Extension
 {
+    private $container;
+
+    public function __construct($container = null)
+    {
+        $this->container = $container;
+    }
+
     public function getTokenParsers()
     {
         return array(
@@ -20,6 +27,7 @@ class CoreExtension extends \Twig_Extension
      */
     public function getFunctions()
     {
+
         return array(
             'pagegetvar' => new \Twig_Function_Method($this, 'pageGetVar'),
             'pagesetvar' => new \Twig_Function_Method($this, 'pageSetVar'),
@@ -32,7 +40,13 @@ class CoreExtension extends \Twig_Extension
             'showblockposition' => new \Twig_Function_Method($this, 'showBlockPosition'),
             'showblock' => new \Twig_Function_Method($this, 'showBlock'),
             'blockinfo' => new \Twig_Function_Method($this, 'getBlockInfo'),
+            'zasset' => new \Twig_Function_Method($this, 'getAssetPath')
         );
+    }
+
+    public function getAssetPath($path)
+    {
+        return $this->container->get('theme.asset_helper')->resolve($path);
     }
 
     public function showBlockPosition($name, $implode = true)

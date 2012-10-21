@@ -12,6 +12,8 @@
         <parameter key="theme.pagevars.class">Zikula\Core\Theme\ParameterBag</parameter>
         <parameter key="theme.themevars.class">Zikula\Core\Theme\ParameterBag</parameter>
         <parameter key="theme.metatags.class">Zikula\Core\Theme\ParameterBag</parameter>
+        <parameter key="theme.asset_helper.class">Zikula\Core\Theme\Asset</parameter>
+        <parameter key="theme.asset.packagepath.class">Zikula\Core\Theme\Asset\PackagePath</parameter>
     </parameters>
 
     <services>
@@ -38,6 +40,16 @@
         </service>
 
         <service id="theme.metatags" class="%theme.metatags.class%">
+        </service>
+
+        <service id="theme.asset.packagepath" scope="request" class="%theme.asset.packagepath.class%">
+            <argument type="service" id="request" />
+            <!-- todo, version and format args -->
+        </service>
+
+        <service id="theme.asset_helper" scope="request" class="%theme.asset_helper.class%">
+            <argument type="service" id="kernel" />
+            <argument type="service" id="theme.asset.packagepath" />
         </service>
     </services>
 </container>
