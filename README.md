@@ -32,6 +32,11 @@ work for you:
   - before PHP 5.3.8, if you get an error involving annotations, you've hit a
     known PHP bug (see https://bugs.php.net/bug.php?id=55156).
 
+## PHPUnit
+
+If you are developing on Windows you will need to install the ANSI driver
+from http://adoxa.3eeweb.com/ansicon/
+
 ## License
 
 Zikula is licensed under the terms of the LGPLv3 license (or any later version).
