@@ -91,7 +91,7 @@ img.z-floatright {
 ******************************************************************************/
 
 #z-maincontent ul.z-menulinks {
-    background: url("../images/global/menubg_grey.png") repeat-x scroll 0 0 #E6E6E6; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/global/menubg_grey.png") repeat-x scroll 0 0 #E6E6E6; /*non-CSS3 browsers*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#E6E6E6'); /*IE*/
     background: -webkit-gradient(linear,left top, left bottom,from(#fefefe), to(#E6E6E6)); /*webkit*/
     background: -moz-linear-gradient(top, #fefefe, #E6E6E6); /*gecko*/
@@ -141,7 +141,7 @@ img.z-floatright {
 }
 
 .z-menuitem-title {
-    background: url("../images/global/menubg_grey.png") repeat-x scroll 0 0 #E6E6E6;
+    background: url("../../../../../../../web/images/global/menubg_grey.png") repeat-x scroll 0 0 #E6E6E6;
     border: 1px solid #ccc;
     display: block;
     height: auto !important;
@@ -159,7 +159,7 @@ img.z-floatright {
 ******************************************************************************/
 
 .z-errormsg {
-    background: #F7CBCA url("../images/icons/extrasmall/error.png") 13px 50% no-repeat !important;
+    background: #F7CBCA url("../../../../../../../web/images/icons/extrasmall/error.png") 13px 50% no-repeat !important;
     border: 1px solid #CC0000 !important;
     color: #880000 !important;
     margin: 5px 0 10px !important;
@@ -179,7 +179,7 @@ img.z-floatright {
     padding:0 !important;
 }
 .z-informationmsg {
-    background: #e6e6ff url('../images/icons/extrasmall/info.png') 13px 50% no-repeat !important;
+    background: #e6e6ff url('../../../../../../../web/images/icons/extrasmall/info.png') 13px 50% no-repeat !important;
     border: 1px solid #9bb8d9 !important;
     color: #27427D !important;
     margin: 5px 0 10px !important;
@@ -194,7 +194,7 @@ img.z-floatright {
     padding:0 !important;
 }
 .z-statusmsg {
-    background: #DFF2BF url('../images/icons/extrasmall/button_ok.png') 13px 50% no-repeat !important;
+    background: #DFF2BF url('../../../../../../../web/images/icons/extrasmall/button_ok.png') 13px 50% no-repeat !important;
     border: 1px solid #99CC99 !important;
     color: #264409 !important;
     margin: 5px 0 10px !important;
@@ -209,7 +209,7 @@ img.z-floatright {
     padding: 0 !important;
 }
 .z-warningmsg {
-    background: #FEEFB3 url('../images/icons/extrasmall/bell.png') 13px 50% no-repeat !important;
+    background: #FEEFB3 url('../../../../../../../web/images/icons/extrasmall/bell.png') 13px 50% no-repeat !important;
     border: 1px solid #EED324 !important;
     color: #514721 !important;
     margin: 5px 0 10px !important;
@@ -700,7 +700,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 .z-itemlist li.z-itemsort {
-    background-image:url("../images/icons/extrasmall/move.png");
+    background-image:url("../../../../../../../web/images/icons/extrasmall/move.png");
     background-position:5px 50%;
     background-repeat:no-repeat;
     padding-left: 30px !important;
@@ -710,14 +710,14 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
     padding-left: 30px !important;
 }
 .z-itemlist li.z-itemdragleft {
-    background-image:url("../images/icons/extrasmall/move_left.png");
+    background-image:url("../../../../../../../web/images/icons/extrasmall/move_left.png");
     background-position:5px 50%;
     background-repeat:no-repeat;
     padding-left: 30px !important;
     cursor: move;
 }
 .z-itemlist li.z-itemdragright {
-    background-image:url("../images/icons/extrasmall/move_right.png");
+    background-image:url("../../../../../../../web/images/icons/extrasmall/move_right.png");
     background-position:99% 50%;
     background-repeat:no-repeat;
     padding-left: 5px !important;
@@ -779,163 +779,163 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 ******************************************************************************/
 
 .z-icon-es-add {
-    background: url("../images/icons/extrasmall/edit_add.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/edit_add.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-back {
-    background: url("../images/icons/extrasmall/agt_back.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/agt_back.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-cancel {
-    background: url("../images/icons/extrasmall/button_cancel.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-config {
-    background: url("../images/icons/extrasmall/configure.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/configure.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-copy {
-    background: url("../images/icons/extrasmall/editcopy.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/editcopy.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-cubes {
-    background: url("../images/icons/extrasmall/kcmdf.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/kcmdf.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-cut {
-    background: url("../images/icons/extrasmall/editcut.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/editcut.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-delete {
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-display {
-    background: url("../images/icons/extrasmall/kview.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/kview.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-edit {
-    background: url("../images/icons/extrasmall/xedit.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/xedit.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-error {
-    background: url("../images/icons/extrasmall/error.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/error.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-export {
-    background: url("../images/icons/extrasmall/fileexport.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/fileexport.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-gears {
-    background: url("../images/icons/extrasmall/run.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/run.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-filter {
-    background: url("../images/icons/extrasmall/filter.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-group {
-    background: url("../images/icons/extrasmall/group.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/group.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-help {
-    background: url("../images/icons/extrasmall/help.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/help.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-home {
-    background: url("../images/icons/extrasmall/folder_home.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/folder_home.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-hook {
-    background: url("../images/icons/extrasmall/attach.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/attach.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-import {
-    background: url("../images/icons/extrasmall/fileimport.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/fileimport.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-info {
-    background: url("../images/icons/extrasmall/documentinfo.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/documentinfo.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-locale {
-    background: url("../images/icons/extrasmall/locale.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/locale.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-locked {
-    background: url("../images/icons/extrasmall/encrypted.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/encrypted.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-log {
-    background: url("../images/icons/extrasmall/lists.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/lists.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-mail {
-    background: url("../images/icons/extrasmall/mail_generic.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/mail_generic.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-new {
-    background: url("../images/icons/extrasmall/filenew.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-ok {
-    background: url("../images/icons/extrasmall/button_ok.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-options {
-    background: url("../images/icons/extrasmall/servicemanager.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/servicemanager.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-preview {
-    background: url("../images/icons/extrasmall/demo.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/demo.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-print {
-    background: url("../images/icons/extrasmall/printer.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/printer.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-profile {
-    background: url("../images/icons/extrasmall/personal.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/personal.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-regenerate {
-    background: url("../images/icons/extrasmall/agt_update-product.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/agt_update-product.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-remove {
-    background: url("../images/icons/extrasmall/edit_remove.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/edit_remove.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-save {
-    background: url("../images/icons/extrasmall/filesave.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-saveas {
-    background: url("../images/icons/extrasmall/filesaveas.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/filesaveas.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-search {
-    background: url("../images/icons/extrasmall/search.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/search.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-url {
-    background: url("../images/icons/extrasmall/web.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/web.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-user {
-    background: url("../images/icons/extrasmall/user.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/user.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-view {
-    background: url("../images/icons/extrasmall/windowlist.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/windowlist.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-warning {
-    background: url("../images/icons/extrasmall/bell.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/icons/extrasmall/bell.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 .z-icon-es-rss {
-    background: url("../images/feeds/feed-icon-16x16.png") no-repeat scroll 0 50% transparent;
+    background: url("../../../../../../../web/images/feeds/feed-icon-16x16.png") no-repeat scroll 0 50% transparent;
     padding: 2px 0 2px 20px;
 }
 
@@ -1158,206 +1158,206 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 }
 
 .z-buttons .z-bt-ok {
-    background: url("../images/icons/extrasmall/button_ok.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 .z-buttons .z-bt-ok:hover,
 .z-buttons .z-bt-ok.hover {
-    background: url("../images/icons/extrasmall/button_ok.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-ok:active,
 .z-buttons .z-bt-ok.active {
-    background: url("../images/icons/extrasmall/button_ok.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_ok.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-cancel {
-    background: url("../images/icons/extrasmall/button_cancel.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-cancel:hover,
 .z-buttons .z-bt-cancel.hover {
-    background: url("../images/icons/extrasmall/button_cancel.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-cancel:active,
 .z-buttons .z-bt-cancel.active {
-    background: url("../images/icons/extrasmall/button_cancel.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/button_cancel.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-preview {
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-preview:hover,
 .z-buttons .z-bt-preview.hover {
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-preview:active,
 .z-buttons .z-bt-preview.active {
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_novisible.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-new {
-    background: url("../images/icons/extrasmall/filenew.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-new:hover,
 .z-buttons .z-bt-new.hover {
-    background: url("../images/icons/extrasmall/filenew.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-new:active,
 .z-buttons .z-bt-new.active {
-    background: url("../images/icons/extrasmall/filenew.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filenew.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-save {
-    background: url("../images/icons/extrasmall/filesave.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-save:hover {
-    background: url("../images/icons/extrasmall/filesave.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-save:active,
 .z-buttons .z-bt-save.active {
-    background: url("../images/icons/extrasmall/filesave.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filesave.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-edit {
-    background: url("../images/icons/extrasmall/edit.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-edit:hover,
 .z-buttons .z-bt-edit.hover {
-    background: url("../images/icons/extrasmall/edit.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-edit:active,
 .z-buttons .z-bt-edit.active {
-    background: url("../images/icons/extrasmall/edit.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/edit.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-archive {
-    background: url("../images/icons/extrasmall/folder.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-archive:hover,
 .z-buttons .z-bt-archive.hover {
-    background: url("../images/icons/extrasmall/folder.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-archive:active,
 .z-buttons .z-bt-archive.active {
-    background: url("../images/icons/extrasmall/folder.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/folder.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-delete {
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 
 .z-buttons .z-bt-delete:hover,
 .z-buttons .z-bt-delete.hover {
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 
 .z-buttons .z-bt-delete:active,
 .z-buttons .z-bt-delete.active {
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/14_layer_deletelayer.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 .z-buttons .z-bt-filter {
-    background: url("../images/icons/extrasmall/filter.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
 }
 .z-buttons .z-bt-filter:hover,
 .z-buttons .z-bt-filter.hover {
-    background: url("../images/icons/extrasmall/filter.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
 }
 .z-buttons .z-bt-filter:active,
 .z-buttons .z-bt-filter.active {
-    background: url("../images/icons/extrasmall/filter.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
-    background: url("../images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+    background: url("../../../../../../../web/images/icons/extrasmall/filter.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
 }
 
 /* Old input image buttons. Backward compatibility < Zikula 1.3 */
@@ -1505,22 +1505,22 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 
 .z-window .z-window-close {
     right: 10px;
-    background-image: url("../images/ui/window.close.png");
+    background-image: url("../../../../../../../web/images/ui/window.close.png");
 }
 
 .z-window .z-window-maximize {
     right: 30px;
-    background-image: url("../images/ui/window.max.png");
+    background-image: url("../../../../../../../web/images/ui/window.max.png");
 }
 
 .z-window .z-window-minimize {
     right: 50px;
-    background-image: url("../images/ui/window.min.png");
+    background-image: url("../../../../../../../web/images/ui/window.min.png");
 }
 
 .z-window.z-minimized .z-window-minimize,
 .z-window.z-maximized .z-window-maximize {
-    background-image: url("../images/ui/window.restore.png");
+    background-image: url("../../../../../../../web/images/ui/window.restore.png");
 }
 
 .z-window .resizable_handle {
@@ -1530,7 +1530,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
     right: 5px;
     height: 13px;
     width: 13px;
-    background-image: url("../images/ui/window.resize.png");
+    background-image: url("../../../../../../../web/images/ui/window.resize.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
     cursor: pointer;
@@ -1610,7 +1610,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 }
 
 .z-window-indicator {
-    background: #fff url(../images/ajax/large_square_white.gif) no-repeat 50% 50%;
+    background: #fff url(../../../../../../../web/images/ajax/large_square_white.gif) no-repeat 50% 50%;
     opacity: 0.8;
     position: absolute;
     top: 0;
@@ -1659,7 +1659,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 ******************************************************************************/
 
 .z-tabs {
-    background: url("../images/ui/tab_bottom.png") repeat-x scroll center bottom transparent;
+    background: url("../../../../../../../web/images/ui/tab_bottom.png") repeat-x scroll center bottom transparent;
     margin:0 !important;
     padding:0 !important;
     list-style: none;
@@ -1722,7 +1722,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background: url("../images/global/menubg_grey.png") repeat-x scroll 0 0 #dfdfdf; /*non-CSS3 browsers*/
+    background: url("../../../../../../../web/images/global/menubg_grey.png") repeat-x scroll 0 0 #dfdfdf; /*non-CSS3 browsers*/
     background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)); /*webkit*/
     background: -moz-linear-gradient(top, #ffffff, #dfdfdf); /*gecko*/
     background: linear-gradient(#FFFFFF, #dfdfdf); /*CSS3*/
@@ -1767,17 +1767,17 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 }
 
 .z-panels .z-panel-indicator {
-    background: url("../images/global/arrow_right_black.png") no-repeat scroll 7px 50%;
+    background: url("../../../../../../../web/images/global/arrow_right_black.png") no-repeat scroll 7px 50%;
     padding-left: 20px !important;
 }
 .z-panels .z-panel-indicator:hover {
-    background: url("../images/global/arrow_right_grey.png") no-repeat scroll 7px 50%;
+    background: url("../../../../../../../web/images/global/arrow_right_grey.png") no-repeat scroll 7px 50%;
 }
 .z-panels .z-panel-indicator.z-panel-active {
-    background: url("../images/global/arrow_down_black.png") no-repeat scroll 6px 50%;
+    background: url("../../../../../../../web/images/global/arrow_down_black.png") no-repeat scroll 6px 50%;
 }
 .z-panels .z-panel-indicator.z-panel-active:hover {
-    background: url("../images/global/arrow_down_grey.png") no-repeat scroll 6px 50%;
+    background: url("../../../../../../../web/images/global/arrow_down_grey.png") no-repeat scroll 6px 50%;
 }
 
 /******************************************************************************
@@ -1785,20 +1785,20 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 ******************************************************************************/
 
 .z-order-asc {
-    background: url("../images/global/arrow_up_grey.png") transparent 100% 50% no-repeat;
+    background: url("../../../../../../../web/images/global/arrow_up_grey.png") transparent 100% 50% no-repeat;
     padding-right: 12px;
 }
 .z-order-asc:hover,
 .z-order-asc.hover {
-    background: url("../images/global/arrow_up_black.png") transparent 100% 50% no-repeat;
+    background: url("../../../../../../../web/images/global/arrow_up_black.png") transparent 100% 50% no-repeat;
 }
 .z-order-desc {
-    background: url("../images/global/arrow_down_grey.png") transparent 100% 50% no-repeat;
+    background: url("../../../../../../../web/images/global/arrow_down_grey.png") transparent 100% 50% no-repeat;
     padding-right: 12px;
 }
 .z-order-desc:hover,
 .z-order-desc.hover {
-    background: url("../images/global/arrow_down_black.png") transparent 100% 50% no-repeat;
+    background: url("../../../../../../../web/images/global/arrow_down_black.png") transparent 100% 50% no-repeat;
 }
 .z-order-unsorted {
     padding-right: 12px;
@@ -1810,7 +1810,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 
 .z-toggle {
     display: block;
-    background-image: url("../images/global/toggle-bl.png");
+    background-image: url("../../../../../../../web/images/global/toggle-bl.png");
     background-repeat: no-repeat;
     background-position: 0px;
     border: 0pt none;
@@ -1829,7 +1829,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 .z-toggle-link,
 .z-toggle-link:link,
 .z-toggle-link:visited {
-    background-image: url("../images/global/toggle-bl.png");
+    background-image: url("../../../../../../../web/images/global/toggle-bl.png");
     background-repeat: no-repeat;
     background-position: right 2px;
     padding-right: 20px;
@@ -1867,7 +1867,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 ******************************************************************************/
 
 .z-drop {
-    background: url("../images/global/arrow_down_grey.png") no-repeat scroll 100% 50% transparent;
+    background: url("../../../../../../../web/images/global/arrow_down_grey.png") no-repeat scroll 100% 50% transparent;
     cursor: pointer;
     padding-left: 8px;
     position: relative;
@@ -1875,7 +1875,7 @@ button.z-imagebutton, /* Buttons in inline 'ajax' forms */
 
 .z-drop:hover,
 .z-drop.hover {
-    background: url("../images/global/arrow_down_black.png") no-repeat scroll 100% 50% transparent;
+    background: url("../../../../../../../web/images/global/arrow_down_black.png") no-repeat scroll 100% 50% transparent;
 }
 
 /******************************************************************************
