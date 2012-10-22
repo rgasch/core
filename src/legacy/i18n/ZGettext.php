@@ -75,7 +75,7 @@ class ZGettext
     public static function getInstance()
     {
         if (!self::$instance) {
-            self::$instance = new ZGettext();
+            self::$instance = new self();
         }
 
         return self::$instance;

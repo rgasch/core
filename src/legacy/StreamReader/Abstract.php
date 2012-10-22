@@ -23,11 +23,6 @@ abstract class StreamReader_Abstract
     private $error;
 
     /**
-     * Constructor.
-     */
-    public function __construct() {}
-
-    /**
      * Read.
      *
      * @param string $bytes Bytes.

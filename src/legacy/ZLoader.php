@@ -22,9 +22,6 @@ define('ZLOADER_PATH', __DIR__.'/..');
 define('ZIKULA_CONFIG_PATH', realpath(__DIR__.'/../../web/config'));
 define('ZIKULA_ROOT', realpath(__DIR__.'/../../web'));
 
-// setup vendors in include path
-set_include_path(get_include_path() . PATH_SEPARATOR .realpath(__DIR__.'/../../vendor/hard/'));
-
 /**
  * ZLoader.
  */
@@ -51,8 +48,6 @@ class ZLoader
      */
     public static function register()
     {
-        spl_autoload_register(array('ZLoader', 'autoload'));
-
         self::$autoloaders = new UniversalClassLoader();
         self::$autoloaders->register();
 
@@ -95,76 +90,6 @@ class ZLoader
     }
 
     /**
-     * Simple PEAR autoloader and handling for non-PEAR classes.
-     *
-     * @param string $class Class name.
-     *
-     * @return boolean
-     */
-    public static function autoload($class)
-    {
-        // Classloader for SystemPlugin
-        if (strpos($class, 'SystemPlugin') === 0) {
-            $pluginClass = str_replace('_', '\\', $class);
-            $array = explode('\\', $pluginClass);
-            $pluginName = $array[1];
-            $name = substr($pluginClass, strlen("SystemPlugin\\{$pluginName}") + 1, strlen($pluginClass));
-            $path = str_replace('\\', '/', "plugins/$pluginName/$name.php");
-            if (file_exists($path)) {
-                return include $path;
-            }
-        }
-
-        // Classloader for ModulePlugin
-        if (strpos($class, 'ModulePlugin') === 0) {
-            $pluginClass = str_replace('_', '\\', $class);
-            $array = explode('\\', $pluginClass);
-            $moduleName = $array[1];
-            $pluginName = $array[2];
-            $modinfo = ModUtil::getInfoFromName($moduleName);
-            $base = ($modinfo['type'] == ModUtil::TYPE_MODULE) ? 'modules' : 'system';
-            $name = substr($pluginClass, strlen("ModulePlugin\\{$moduleName}\\{$pluginName}") + 1, strlen($pluginClass));
-            $path = str_replace('\\', '/', "$base/$moduleName/plugins/$pluginName/$name.php");
-            if (file_exists($path)) {
-                return include $path;
-            }
-        }
-
-        // Classloader for Themes
-        if (strpos($class, 'Themes\\') === 0 || strpos($class, 'Themes_') === 0) {
-            $themeClass = str_replace('_', '\\', $class);
-            $array = explode('\\', $themeClass);
-            $themeName = $array[1];
-            $name = substr($themeClass, strlen("Themes") + 1, strlen($themeClass));
-            $path = str_replace('\\', '/', "themes/$themeName/$name.php");
-            if (file_exists($path)) {
-                return include $path;
-            }
-        }
-
-        // generic PEAR style namespace to path, i.e Foo_Bar -> Foo/Bar.php
-        if (strpos($class, '_') || strpos($class, '\\')) {
-            $pearClass = str_replace('_', '\\', $class);
-            $array = explode('\\', $pearClass);
-            $prefix = (isset($map[$array[0]]) ? $map[$array[0]] . '/' : '');
-            $path = ZLOADER_PATH . $prefix . str_replace('\\', '/', $pearClass) . '.php';
-            if (file_exists($path)) {
-                return include $path;
-            } else {
-                $path = ZLOADER_PATH . '/legacy/'. $prefix . str_replace('\\', '/', $pearClass) . '.php';
-                if (file_exists($path)) {
-                    return include $path;
-                }
-            }
-        }
-
-        $file = "lib/$class.php";
-        if (file_exists($file)) {
-            return include $file;
-        }
-    }
-
-    /**
      * Provides map for simple autoloader.
      *
      * @return array Class locations.
@@ -172,6 +97,9 @@ class ZLoader
     public static function map()
     {
         return array(
+            'StreamReader_Abstract' => ZLOADER_PATH . '/legacy/StreamReader/Abstract.php',
+            'StreamReader_CachedFile' => ZLOADER_PATH . '/legacy/StreamReader/CachedFile.php',
+            'StreamReader_String' => ZLOADER_PATH . '/legacy/StreamReader/String.php',
             'ZLanguage' => ZLOADER_PATH . '/legacy/i18n/ZLanguage.php',
             'ZI18n' => ZLOADER_PATH . '/legacy/i18n/ZI18n.php',
             'ZL10n' => ZLOADER_PATH . '/legacy/i18n/ZL10n.php',
