@@ -10,9 +10,6 @@
     {{ css.add('bundles/andreas08theme/css/fluid960gs/reset.css') }}
     {{ css.add('bundles/andreas08theme/css/fluid960gs/' ~ themevar.basecss ~ '.css') }}
     {{ css.add('bundles/andreas08theme/css/style.css') }}
-    {{ pageaddvar("stylesheet", "bundles/andreas08theme/css/fluid960gs/reset.css") }}
-    {{ pageaddvar("stylesheet", "bundles/andreas08theme/css/fluid960gs/" ~ themevar.basecss ~ ".css") }}
-    {{ pageaddvar("stylesheet", "bundles/andreas08theme/css/style.css") }}
     {#% browserhack condition="if IE 7" assign="ieconditional" %#}
     {#<link rel="stylesheet" type="text/css" href="{{ stylepath }}/fluid960gs/ie.css" media="screen" />#}
     {#{/browserhack}#}

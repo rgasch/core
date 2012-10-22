@@ -12,16 +12,20 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Zikula\Framework\Response\PlainResponse;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Zikula\Framework\Response\Ajax\AbstractBaseResponse as AbstractAjaxResponse;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class ThemeListener implements EventSubscriberInterface
 {
+    private $container;
+
     /**
      * @var EngineInterface
      */
     private $templating;
 
-    public function __construct(EngineInterface $templating)
+    public function __construct(ContainerInterface $container, EngineInterface $templating)
     {
+        $this->container = $container;
         $this->templating = $templating;
     }
 
@@ -61,7 +65,18 @@ class ThemeListener implements EventSubscriberInterface
                                                          'themevar' => $themeVar,
                                                          'modvars' => \ModUtil::getModvars(),
                                                      ));
-                $content = \JCSSUtil::render($content);
+                $resolver = $this->container->get('theme.css_resolver');
+                $css = $resolver->compile();
+
+                $resolver = $this->container->get('theme.js_resolver');
+                $js = $resolver->compile();
+
+                $pageVars = $this->container->get('theme.pagevars');
+
+                $filter = new \Zikula\Core\Theme\Filter($pageVars);
+                $content = $filter->filter($content, $js, $css);
+//                $content = \JCSSUtil::render($content);
+
                 $response->setContent($content);
             }
         }

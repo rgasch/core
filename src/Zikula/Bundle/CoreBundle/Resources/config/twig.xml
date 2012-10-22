@@ -14,6 +14,8 @@
         <parameter key="theme.metatags.class">Zikula\Core\Theme\ParameterBag</parameter>
         <parameter key="theme.asset_helper.class">Zikula\Core\Theme\Asset</parameter>
         <parameter key="theme.asset.packagepath.class">Zikula\Core\Theme\Asset\PackagePath</parameter>
+        <parameter key="theme.asset.js_resolver.class">Zikula\Core\Theme\Asset\JsResolver</parameter>
+        <parameter key="theme.asset.css_resolver.class">Zikula\Core\Theme\Asset\CssResolver</parameter>
     </parameters>
 
     <services>
@@ -40,6 +42,14 @@
         </service>
 
         <service id="theme.metatags" class="%theme.metatags.class%">
+        </service>
+
+        <service id="theme.js_resolver" class="%theme.asset.js_resolver.class%">
+            <argument type="service" id="theme.assets_js" />
+        </service>
+
+        <service id="theme.css_resolver" class="%theme.asset.css_resolver.class%">
+            <argument type="service" id="theme.assets_css" />
         </service>
 
         <service id="theme.asset.packagepath" scope="request" class="%theme.asset.packagepath.class%">
