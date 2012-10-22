@@ -202,6 +202,20 @@ class InitListener implements EventSubscriberInterface
 //        }
 
         if ($stage & self::STAGE_THEME) {
+            // todo, this should be moved into an SEO listener to setup
+            // title and meta description
+//            if ($varname == 'title') {
+//                $title = System::getVar('pagetitle', '');
+//                if (!empty($title) && $title != '%pagetitle%') {
+//                    $title = str_replace('%pagetitle%', $_pageVars[$varname]['contents'], $title);
+//                    $title = str_replace('%sitename%', System::getVar('sitename', ''), $title);
+//                    $moduleInfo = ModUtil::getInfoFromName(ModUtil::getName());
+//                    $moduleDisplayName = $moduleInfo['displayname'];
+//                    $title = str_replace('%modulename%', $moduleDisplayName, $title);
+//
+//                    return $title;
+//                }
+//            }
             $coreInitEvent->setArgument('stage', self::STAGE_THEME);
             $this->dispatcher->dispatch(CoreEvents::INIT, $coreInitEvent);
         }
