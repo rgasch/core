@@ -203,7 +203,7 @@ class Twiggifier
         $this->template = str_replace($this->matches[0][$key], $string, $this->template);
     }
 
-    public function convertPagesetvar($match, $key, $command = 'pagesetvar')
+    public function convertPagesetvar($match, $key, $command = 'pagevar.set')
     {
         preg_match('/^'.$command.' (.+?)\s{0,}$/', $match, $matches);
 
@@ -223,7 +223,7 @@ class Twiggifier
 
     public function convertPageaddvar($match, $key)
     {
-        $this->convertPagesetvar($match, $key, 'pageaddvar');
+        $this->convertPagesetvar($match, $key, 'pagevar.add');
     }
 
     public function convertVariable($key)
