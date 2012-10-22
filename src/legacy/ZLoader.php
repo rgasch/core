@@ -14,10 +14,6 @@
 
 use Symfony\Component\ClassLoader\UniversalClassLoader;
 
-if (!extension_loaded('xdebug')) {
-    set_exception_handler('exception_handler');
-}
-
 define('ZLOADER_PATH', __DIR__.'/..');
 define('ZIKULA_CONFIG_PATH', realpath(__DIR__.'/../../web/config'));
 define('ZIKULA_ROOT', realpath(__DIR__.'/../../web'));
@@ -157,21 +153,4 @@ function z_exit($msg, $html = true)
     trigger_error($msg, E_USER_ERROR);
     return false;
     //throw new Zikula_Exception_Fatal($msg);
-}
-
-/**
- * Default exception handler.
- *
- * PHP by default doesn't display uncaught exception stacktraces in HTML.
- * This function halts execution of PHP after is finishes.
- *
- * @param Exception $e Exception to handle.
- *
- * @return void
- */
-function exception_handler(Exception $e)
-{
-    echo "<pre>";
-    echo 'Uncaught exception ' . $e->getMessage() . ' in ' . $e->getFile() . ' line, ' . $e->getLine() . "\n";
-    echo $e->getTraceAsString() . "</pre>";
 }

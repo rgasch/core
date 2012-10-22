@@ -20,8 +20,6 @@ use Zikula\Framework\AbstractEventHandler;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher;
-use Symfony\Component\HttpFoundation\RedirectResponse;
-use UsersModule\Constants as UsersConstant;
 
 
 // Defines for access levels
