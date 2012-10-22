@@ -34,7 +34,6 @@ AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 //require_once __DIR__.'/../vendor/swiftmailer/swiftmailer/lib/classes/Swift.php';
 //Swift::registerAutoload(__DIR__.'/../vendor/swiftmailer/swiftmailer/lib/swift_init.php');
 
-require_once __DIR__.'/../vendor/hard/Smarty/Smarty.class.php';
 require_once __DIR__.'/../src/legacy/i18n/ZGettextFunctions.php';
 
 $loader->add('CustomBundle', __DIR__.'/custom');
