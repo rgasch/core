@@ -29,9 +29,6 @@ class CoreExtension extends \Twig_Extension
     {
 
         return array(
-            'pagegetvar' => new \Twig_Function_Method($this, 'pageGetVar'),
-            'pagesetvar' => new \Twig_Function_Method($this, 'pageSetVar'),
-            'pageaddvar' => new \Twig_Function_Method($this, 'pageAddVar'),
             'button' => new \Twig_Function_Method($this, 'button'),
             'img' => new \Twig_Function_Method($this, 'img'),
             'icon' => new \Twig_Function_Method($this, 'icon'),
@@ -104,29 +101,6 @@ class CoreExtension extends \Twig_Extension
     public function icon()
     {
 
-    }
-
-    public function pageGetVar($name, $default = null)
-    {
-        return \PageUtil::getVar($name, $default);
-    }
-
-    public function pageSetVar($name, $value = null)
-    {
-        if (in_array($name, array('stylesheet', 'javascript'))) {
-            $value = explode(',', $value);
-        }
-
-        \PageUtil::setVar($name, $value);
-    }
-
-    public function pageAddVar($name, $value = null)
-    {
-        if (in_array($name, array('stylesheet', 'javascript'))) {
-            $value = explode(',', $value);
-        }
-
-        \PageUtil::addVar($name, $value);
     }
 
     /**

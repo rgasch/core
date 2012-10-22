@@ -202,25 +202,6 @@ class InitListener implements EventSubscriberInterface
 //        }
 
         if ($stage & self::STAGE_THEME) {
-            // register default page vars
-            \PageUtil::registerVar('title');
-            \PageUtil::setVar('title', \System::getVar('defaultpagetitle'));
-            \PageUtil::registerVar('stylesheet', true);
-            \PageUtil::registerVar('javascript', true);
-            \PageUtil::registerVar('jsgettext', true);
-            \PageUtil::registerVar('body', true);
-            \PageUtil::registerVar('header', true);
-            \PageUtil::registerVar('footer', true);
-
-//            $theme = \Zikula_View_Theme::getInstance();
-
-            // set some defaults
-            // Metadata for SEO
-            $array = new \ArrayObject();
-            $this->container['zikula_view.metatags'] = $array;
-            $this->container['zikula_view.metatags']['description'] = \System::getVar('defaultmetadescription');
-            $this->container['zikula_view.metatags']['keywords'] = \System::getVar('metakeywords');
-
             $coreInitEvent->setArgument('stage', self::STAGE_THEME);
             $this->dispatcher->dispatch(CoreEvents::INIT, $coreInitEvent);
         }

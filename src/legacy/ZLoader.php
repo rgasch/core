@@ -198,7 +198,6 @@ class ZLoader
             'ModUtil' => ZLOADER_PATH . '/legacy/util/ModUtil.php',
             'ObjectUtil' => ZLOADER_PATH . '/legacy/util/ObjectUtil.php',
             'PluginUtil' => ZLOADER_PATH . '/legacy/util/PluginUtil.php',
-            'PageUtil' => ZLOADER_PATH . '/legacy/util/PageUtil.php',
             'RandomUtil' => ZLOADER_PATH . '/legacy/util/RandomUtil.php',
             'SecurityUtil' => ZLOADER_PATH . '/legacy/util/SecurityUtil.php',
             'ServiceUtil' => ZLOADER_PATH . '/legacy/util/ServiceUtil.php',
