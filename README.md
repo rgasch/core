@@ -58,24 +58,5 @@ install Zikula from the `master` branch:
 Remember to run Composer periodically to keep the dependencies up to date
 using `composer.phar self-update && composer.phar update`.
 
-## What's Changing in Zikula Core 2.0?
-
-For complete upgrading instructions, please see the
-[upgrading guide](https://github.com/zikula/core/blob/master/docs/UPGRADING-2.0.md).
-
-Changing the core compoents to Symfony2 will impact all areas of the project and
-thus there will be some temporary changes to keep things running while development
-is in progress. Some features may need to be removed temporarily in order to
-rewrite them.
-
-Besides major changes to the file structure and modules, the following areas are
-going to be completely changed from the previous model:
-
-  - Translation
-  - Templating (replacing smarty with Twig and implementing Assetic)
-  - Javascript (removing prototype, changing everything to jQuery)
-  - CSS (adopting Twitter Bootstrap)
-
 To monitor developer discussion on these issues, please check out the
 [zikula-dev mailing list](https://groups.google.com/group/zikula-dev).
-
