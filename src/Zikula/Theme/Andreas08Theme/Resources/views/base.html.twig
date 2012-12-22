@@ -8,9 +8,9 @@
     <meta name="keywords" content="{{ meta.get('keywords') }}"/>
     <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
     <link rel="shortcut icon" href="{{ zasset('@CoreBundle:images/favicon.ico') }}" />
-    {{ css.add('bundles/andreas08theme/css/fluid960gs/reset.css') }}
-    {{ css.add('bundles/andreas08theme/css/fluid960gs/' ~ themevar.basecss ~ '.css') }}
-    {{ css.add('bundles/andreas08theme/css/style.css') }}
+    {{ css.add(zasset('@Andreas08Theme:css/fluid960gs/reset.css')) }}
+    {{ css.add(zasset('@Andreas08Theme:css/fluid960gs/' ~ themevar.basecss ~ '.css')) }}
+    {{ css.add(zasset('@Andreas08Theme:css/style.css')) }}
 </head>
 <body>
 <div id="theme_page_container" class="container_16">

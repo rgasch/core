@@ -10,8 +10,8 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Zikula\Framework\Response\PlainResponse;
+use Zikula\Core\Theme\Filter;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use Zikula\Framework\Response\Ajax\AbstractBaseResponse as AbstractAjaxResponse;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class ThemeListener implements EventSubscriberInterface
@@ -73,9 +73,8 @@ class ThemeListener implements EventSubscriberInterface
 
                 $pageVars = $this->container->get('theme.pagevars');
 
-                $filter = new \Zikula\Core\Theme\Filter($pageVars);
+                $filter = new Filter($pageVars);
                 $content = $filter->filter($content, $js, $css);
-//                $content = \JCSSUtil::render($content);
 
                 $response->setContent($content);
             }
